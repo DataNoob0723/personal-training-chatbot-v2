@@ -1,0 +1,166 @@
+.wrapper{
+  display: inline-block;
+  position:relative;
+  width: 112%;
+  max-width: 112%;
+}
+.Front-img{
+  width: 100%;
+  max-width: 100%;
+  border: 0px solid blue;
+  z-index: 1;
+}
+.Front2-img{
+  position:absolute;
+  left: 0%;
+  width: 100%;
+  max-width:100%;
+  z-index: 1;
+}
+.Back-img{
+  width: 100%;
+  max-width: 100%;
+  border: 0px solid red;
+  z-index: 1;
+}
+.Back2-img{
+  position:absolute;
+  left: 0%;
+  width: 100%;
+  max-width:100%;
+  z-index: 1;
+}
+
+/* svg base fills */
+.head {
+  fill: black;
+}
+.delt {
+  fill: black;
+}
+.pecs {
+  fill: black;
+}
+.biceps {
+  fill: black;
+}
+.abs {
+  fill: black;
+}
+.forearm {
+  fill: black;
+}
+.obliques {
+  fill: black;
+}
+.quads {
+  fill: black;
+}
+.low_leg {
+  fill: black;
+}
+.calf {
+  fill: black;
+}
+.traps {
+  fill: black;
+}
+.triceps {
+  fill: black;
+}
+.lats {
+  fill: black;
+}
+.spine {
+  fill: black;
+}
+.hams {
+  fill: black;
+}
+.glutes {
+  fill: black;
+}
+
+
+
+/* svg on hover */
+.quads:hover {
+  fill: blue;
+}
+.head:hover {
+  fill: blue;
+}
+.delt:hover {
+  fill: blue;
+}
+.pecs:hover {
+  fill: blue;
+}
+.biceps:hover {
+  fill: blue;
+}
+.abs:hover {
+  fill: blue;
+}
+.forearm:hover {
+  fill: blue;
+}
+.obliques:hover {
+  fill: blue;
+}
+.quads:hover {
+  fill: blue;
+}
+.low_leg:hover {
+  fill: blue;
+}
+.calf:hover {
+  fill: blue;
+}
+.traps:hover {
+  fill: blue;
+}
+.triceps:hover {
+  fill: blue;
+}
+.lats:hover {
+  fill: blue;
+}
+.spine:hover {
+  fill: blue;
+}
+.hams:hover {
+  fill: blue;
+}
+.glutes:hover {
+  fill: blue;
+}
+
+text{
+  display:none;
+  fill:#fff;
+  font-size:4em;
+  font-family:sans-serif;
+}
+
+g:hover > text{
+  display:block;
+}
+
+.img-overlay-wrap {
+  position: relative;
+  display: inline-block; /* <= shrinks container to image size */
+  transition: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap img { /* <= optional, for responsiveness */
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+.img-overlay-wrap svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
