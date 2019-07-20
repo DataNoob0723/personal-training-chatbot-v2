@@ -10,7 +10,7 @@ app = Flask(__name__)
 chatbot = ChatBot()
 
 global response_dict
-response_dict = {"response": "Hi, I am John Matrix, I am here to help you with exercise or muscle questions."}
+response_dict = {}
 
 
 @app.route("/")

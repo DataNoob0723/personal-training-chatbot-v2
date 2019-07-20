@@ -98,6 +98,9 @@ $(document).ready(function () {
             }
         });
 
+        // Display a welcome message at the start of the chat
+        let response = "Hi, I am John Matrix, I am here to help you with exercise or muscle questions.";
+        displayMessage(response, "left");
 
     });
 
